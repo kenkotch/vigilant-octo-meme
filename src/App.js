@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HoardList from './components/HoardList'
 
 const fakeItems = [
   {
@@ -31,8 +32,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="App-title">Welcome to React</h1>
-        <p>Brutalist again</p>
+        <h1 className="App-title">All your routes are belong to me.</h1>
+        <HoardList />
       </div>
     );
   }
