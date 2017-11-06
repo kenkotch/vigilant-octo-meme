@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="App-title">All your routes are belong to me.</h1>
-        <HoardList />
+        <HoardList items={ this.state.items }/>
       </div>
     );
   }
