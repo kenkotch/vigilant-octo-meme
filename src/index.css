@@ -1,5 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Share+Tech+Mono|PT+Mono|Libre+Barcode+128+Text|Stalinist+One');
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: white;
+    color: #black;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 10px;
+    font-family: 'Stalinist One', cursive;
+    font-weight: lighter;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-width: 1px;
+    border-bottom-style: solid;
+    margin-top: 10px;
+    display: block;
+}
+
+.item-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+    float: left;
+}
+
+.item-description {
+    display: inline-block;
+    margin-left: 1em;
+    float: left;
+}
+
+.barcode {
+    text-transform: uppercase;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 200%;
+}
+
+.delete-btn {
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+.show-more-btn {
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+.below-list {
+    width: 50%;
+    margin: 20px auto auto auto;
+}
+
+.details-view {
+    border: 1px solid #eeeeee;
+}
+
+.details-view p {
+    display: block;
+    width: 66%;
+    margin: 10px auto 10px 15%;
+    text-align: center;
+}
+
+.details-view img {
+    display: block;
+    max-width: 66%;
+    max-height: 66%;
+    width: auto;
+    height: auto;
+    margin: 10px auto 10px 15%;
+}
+
+form {
+    margin-top: 20px;
+    display: block;
+}
+
+.tidy-form {
+    display: block;
+    width: 100%;
+}
+
+label {
+    display: block;
+}
+
+.loader {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 20px auto;
 }
