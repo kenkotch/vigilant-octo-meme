@@ -20,7 +20,7 @@ h1 {
     font-weight: lighter;
 }
 
-ul {
+/*ul {
     margin: 0;
     padding: 0;
 }
@@ -30,7 +30,7 @@ li {
     border-bottom-style: solid;
     margin-top: 10px;
     display: block;
-}
+}*/
 
 .item-name {
     font-weight: bold;
